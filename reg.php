@@ -11,7 +11,7 @@ $DOB = $_POST["date_of_birth"];
 $userName = $_POST["username"];
 $pw = $_POST["pass1"];
 echo "<script language="javascript">";
-echo "alert(message successfully sent)";  
+echo "alert("message successfully sent")";  
 echo "</script>";
 exit;
 ?>
