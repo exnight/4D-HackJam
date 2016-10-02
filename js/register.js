@@ -17,6 +17,3 @@ function checkPass(){
     }
 }
 
-function Redirect(){
-	window.location = "reg.php";	
-}
