@@ -11,8 +11,8 @@ $DOB = $_POST["date_of_birth"];
 $userName = $_POST["username"];
 $pw = $_POST["pass1"];
 function phpAlert($msg) {
-    echo '<script type="text/javascript">'
-    echo 'alert("' . $msg . '");'
+    echo '<script type="text/javascript">';
+    echo 'alert("' . $msg . '");';
     echo '</script>';
 }
   
