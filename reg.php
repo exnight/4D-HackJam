@@ -10,10 +10,11 @@ $Gender = $_POST["gender"];
 $DOB = $_POST["date_of_birth"];
 $userName = $_POST["username"];
 $pw = $_POST["pass1"];
-echo "<script language="javascript">";
-echo "alert("message successfully sent")";  
-echo "</script>";
-exit;
+function phpAlert($msg) {
+    echo '<script type="text/javascript">alert("' . $msg . '")</script>';
+}
+  
+phpAlert("Please gimme some shit!");
 ?>
 
 </body>
