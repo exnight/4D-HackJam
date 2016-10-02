@@ -16,3 +16,7 @@ function checkPass(){
 		return false
     }
 }
+
+function Redirect(){
+	window.location="http://www.thisav.com"	
+}
