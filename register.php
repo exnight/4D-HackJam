@@ -25,7 +25,7 @@
 			<section id="main_section">
 				<h1>Register </h1>
 				<article>
-					<form method="POST" onsubmit="reg.php">
+					<form method="POST" onsubmit="Redirect()">
 						<br />
 						First Name:
 						<input type="text" name="first_name" placeholder="First Name" required="" autofocus="" />
