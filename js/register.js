@@ -18,5 +18,5 @@ function checkPass(){
 }
 
 function Redirect(){
-	window.location="http://www.thisav.com"	
+	alert("fuck you!");	
 }
