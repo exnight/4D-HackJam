@@ -18,5 +18,5 @@ function checkPass(){
 }
 
 function Redirect(){
-	window.location = "reg.php"	
+	window.location = "reg.php";	
 }
