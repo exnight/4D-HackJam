@@ -15,7 +15,7 @@ function phpAlert($msg) {
     echo 'alert("' . $msg . '");';
     echo '</script>';
 }
-  
+
 phpAlert("Please gimme some shit!");
 ?>
 
