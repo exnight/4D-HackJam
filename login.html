@@ -3,19 +3,19 @@
 
 <head>
     <title>
-        Online Bookstore
+        Login Page
     </title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/main.css" />
-
+    <script src="js/login.js"></script>
 </head>
 
 <body>
     <div id="big_wrapper">
         <header id="top_header">
-            <a href="../index.html"><img id="logo" src="img/logo.png" alt="Logo"></a>
+            <a href="index.html"><img id="logo" src="img/logo.png" alt="Logo"></a>
             <span id="website_title">4 Dimension's Book Store</span>
         </header>
         <nav id="top_menu">
@@ -33,9 +33,19 @@
             </a>
         </nav>
         <section id="main_section">
-            <h1>Home Page</h1>
+            <h1>Login</h1>
             <article>
-                <p>Welcome to the our website!!</p>
+                <form method="post">
+                    <br /> Username:
+                    <input type="text" name="username" placeholder="Username" required="" autofocus="" />
+                    <br /> Password:
+                    <input type="password" name="password" placeholder="Password" required="" />
+                    <br />
+                    <input type="reset" name="reset" value="Reset" />
+                    <input type="submit" value="Submit" />
+                </form>
+                <p><a href="../reset_password.html">Forgot your password? </a></p>
+                <p><a href="../register.php">Not a member? Register</a></p>
             </article>
         </section>
         <footer id="the_footer">

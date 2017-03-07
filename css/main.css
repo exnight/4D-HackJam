@@ -1,82 +1,94 @@
-*{
-  margin:0em;
-  padding:0em;
-}
-h1{
-  font:bold 1.25em Tahoma;
-}
-h2{
-  font:bold 0.25em Tahoma;
-}
-body{
-  width:100%;
-  font-size:16px;
-}
-#bigwrapper{
-  width:100%;
-}
-#top_header{
-  padding:1em;
-}
-#website_title{
-  font:bold 2em tahoma;
-}
-#top_menu{
-	width:100%;
-	display:flex;
-  flex-flow:row wrap;
-	background:lightblue;
-}
-#top_menu a{
-	width:100%;
-	flex:1;
-	background:lightblue;
-	padding:0.5em;
-	border:1px solid darkblue;
-	text-decoration: none;
-	color:#000000;
-}
-#main_section{
-	border:1px solid blue;
-	padding:1.25em;
-	margin:1em 0em 1em 0em;
-}
-#the_footer{
-	text-align:center;
-	border-top: 2px solid green;
+* {
+    margin: 0em;
+    padding: 0em;
 }
 
+h1 {
+    font: bold 1.25em Tahoma;
+}
+
+h2 {
+    font: bold 0.25em Tahoma;
+}
+
+body {
+    width: 100%;
+    font-size: 16px;
+}
+
+#bigwrapper {
+    width: 100%;
+}
+
+#top_header {
+    padding: 1em;
+}
+
+#website_title {
+    font: bold 2em tahoma;
+}
+
+#top_menu {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background: lightblue;
+}
+
+#top_menu a {
+    width: 100%;
+    flex: 1;
+    background: lightblue;
+    padding: 0.5em;
+    border: 1px solid darkblue;
+    text-decoration: none;
+    color: #000000;
+}
+
+#main_section {
+    border: 1px solid blue;
+    padding: 1.25em;
+    margin: 1em 0em 1em 0em;
+}
+
+#the_footer {
+    text-align: center;
+    border-top: 2px solid green;
+}
+
+
 /*Below is the css for mobile version*/
-@media print, screen and (min-width:550px){
-	#big_wrapper{
-		width=100%;
-	}
-	#top_header{
-		padding:1em;
-	}
-	#logo{
-		width:5em;
-		pointer-events:none;
-	}
-	#website_title{
-		font:bold 2em Tahoma;
-	}
-	#toggler{
-		display:none;
-	}
-	#top_menu{
-		width:100%;
-		display:flex;
-		flex-flow:row wrap;
-		background:lightblue;
-	}
-	#top_menu a{
-		width:100%;
-		flex:1;
-		background:lightblue;
-		padding:0.5em;
-		border:1px solid darkblue;
-		text-decoration: none;
-		color:#000000;
-	}
-}	
+
+@media print, screen and (min-width:550px) {
+    #big_wrapper {
+        width: 100%;
+    }
+    #top_header {
+        padding: 1em;
+    }
+    #logo {
+        width: 5em;
+        pointer-events: none;
+    }
+    #website_title {
+        font: bold 2em Tahoma;
+    }
+    #toggler {
+        display: none;
+    }
+    #top_menu {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        background: lightblue;
+    }
+    #top_menu a {
+        width: 100%;
+        flex: 1;
+        background: lightblue;
+        padding: 0.5em;
+        border: 1px solid darkblue;
+        text-decoration: none;
+        color: #000000;
+    }
+}
